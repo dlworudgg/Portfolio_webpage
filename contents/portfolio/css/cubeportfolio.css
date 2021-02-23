@@ -4938,6 +4938,24 @@ body{
     .main-timeline .timeline:nth-child(2n) .timeline-content {
         padding: 10px 30px 10px 0
     }
+
+    .main-timeline .description {
+        margin-bottom: 0
+        font-family: "Open Sans";
+        font-size: 14px;
+        color : #121010;
+    }
+
+    .main-timeline .description ul {
+      color: #120f0f ;
+      padding-left: 0;
+      list-style-type: none;
+    }
+    .main-timeline .description ul li:before {
+      content: "–";
+      margin-right: .5em;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -4985,6 +5003,23 @@ body{
     }
     .main-timeline .title {
         margin-bottom: 10px
+    }
+
+    .main-timeline .description {
+        margin-bottom: 0
+        font-family: "Open Sans";
+        font-size: 14px;
+        color : #121010;
+    }
+
+    .main-timeline .description ul {
+      color: #120f0f ;
+      padding-left: 0;
+      list-style-type: none;
+    }
+    .main-timeline .description ul li:before {
+      content: "–";
+      margin-right: .5em;
     }
 }
 
