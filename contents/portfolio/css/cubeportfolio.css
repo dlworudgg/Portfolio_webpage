@@ -3245,7 +3245,14 @@
 
 .cbp-l-project-desc {
     float: left;
-    width: 54%
+    width: 55%
+}
+
+.cbp-l-project-skills {
+    float: right;
+    width: 45%;
+    padding-left: 60px;
+    margin-bottom: 15px
 }
 
 
@@ -3257,7 +3264,7 @@
 
 .cbp-l-project-details {
     float: right;
-    width: 46%;
+    width: 60%;
     padding-left: 60px;
     margin-bottom: 15px
 }
@@ -3309,6 +3316,11 @@ cbp-l-project-details_aboutme {
         margin-top: 20px;
         padding-left: 0
     }
+    .cbp-l-project-skills{
+      width: 100%;
+      margin-top: 20px;
+      padding-left: 0
+    }
 }
 
 .cbp-l-project-desc-title {
@@ -3318,7 +3330,8 @@ cbp-l-project-details_aboutme {
 }
 
 .cbp-l-project-desc-title span,
-.cbp-l-project-details-title span {
+.cbp-l-project-details-title span,
+.cbp-l-project-skills-title span{
     border-bottom: 1px solid #747474;
     display: inline-block;
     margin: 0 0 -1px;
@@ -3331,6 +3344,38 @@ cbp-l-project-details_aboutme {
     color: #555;
     margin-bottom: 20px
 }
+
+.cbp-l-project-desc-text ul {
+   font-family: "Open Sans";
+   font-size: 13px;
+  color: #363434;
+  padding-left: 20px;
+  list-style-type: none;
+   margin-bottom: 10px;
+}
+
+.cbp-l-project-desc-text ul li{
+ margin-bottom: 8px;
+}
+
+
+.cbp-l-project-desc-text ul li:before {
+  content: "–";
+  margin-right: .5em;
+}
+
+.cbp-l-project-skills-title
+
+.cbp-l-project-skills-title {
+    border-bottom: 1px solid #cdcdcd;
+    margin-bottom: 19px;
+    color: #444
+}
+
+
+
+.cbp-l-project-details-title
+
 
 .cbp-l-project-details-title {
     border-bottom: 1px solid #cdcdcd;
@@ -4657,6 +4702,8 @@ width: auto;
 }
 
 
+
+
 body{
     background-color: #f7f7f7;
     margin-top:20px;
@@ -4803,13 +4850,13 @@ body{
 }
 
 .main-timeline .month {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700
 }
 
 .main-timeline .year {
     display: block;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     color: #232323;
     line-height: 36px
@@ -4825,19 +4872,42 @@ body{
     font-size: 19px;
     font-weight: 700;
     line-height: 24px;
-    margin: 0 0 15px 0
 }
 
 .main-timeline .subtitle {
     color: #787878;
-    font: 400 15px/22px "Open Sans Condensed", sans-serif;
-    margin: 0 0 10px 0;
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin: 0 0 0 15px ;
+}
+
+
+.timeline-subtitle {
+    color: #121111;
+    font-family: "Open Sans";
+    font-size: 14px;
+    margin: 0 0 15px 10px;
 
 }
+
 
 .main-timeline .description {
     margin-bottom: 0
+    font-family: "Open Sans";
+    font-size: 14px;
+    color : #121010;
 }
+
+.main-timeline .description ul {
+  color: #120f0f ;
+  padding-left: 0;
+  list-style-type: none;
+}
+.main-timeline .description ul li:before {
+  content: "–";
+  margin-right: .5em;
+}
+
 
 .main-timeline .timeline:nth-child(2n) .date-content {
     float: right
@@ -4905,7 +4975,7 @@ body{
         top: 30%
     }
     .main-timeline .year {
-        font-size: 24px
+        font-size: 16px
     }
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(2n) .timeline-content {
