@@ -368,10 +368,10 @@ address a i:hover {
     background: transparent;
     border: 0px;
     font-size: 18px;
-    color: #666;
+    color: #043487;
     transition: .3s;
     margin-top: 10px;
-
+	left: 38%;
 }
 
 .list-group-item:hover {
@@ -865,4 +865,16 @@ line-height: 1.6;
 .font_highlight{
 color:#09064a;
 font-size: 20px
+}
+.list_font{
+font-size: 18px;
+margin-bottom : 15px;
+}
+
+.list_sub_font{
+font-family: "Open Sans";
+font-size: 15px;
+  color: #121010;
+  padding-left: 10px;
+  margin-bottom: 10px;
 }
