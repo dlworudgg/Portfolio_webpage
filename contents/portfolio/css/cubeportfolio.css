@@ -5031,6 +5031,17 @@ body{
 
 }
 
+.cbp-l-project-desc-text_collapse ul {
+      color: #120f0f ;
+      padding-left: 0;
+      list-style-type: none;
+    }
+.cbp-l-project-desc-text_collapse ul li:before {
+      content: "–";
+      margin-right: .5em;
+    }
+
+
 center-block img-rounded_border {
 
 }
